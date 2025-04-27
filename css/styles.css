@@ -57,7 +57,7 @@ section {
 }
 
 .header-nav {
-  margin-right: 104px;
+  margin-right: 84px;
   margin-left: 104px;
 }
 
@@ -119,7 +119,7 @@ section {
   font-weight: 700;
   font-size: 70px;
   line-height: 1.285;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   color: #fff;
   margin-left: auto;
   margin-right: auto;
@@ -133,13 +133,16 @@ section {
   text-align: center;
   color: #fff;
   padding-top: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 787px;
 }
 
 .hero-list {
-    display: flex;
-    gap: 19px;
-    margin-top: 30px;
-    justify-content: center;
+  display: flex;
+  gap: 19px;
+  margin-top: 30px;
+  justify-content: center;
 }
 
 .hero-item {
@@ -167,4 +170,100 @@ section {
   width: 181px;
   height: 48px;
   background: #fff;
+}
+
+/* section-about */
+
+.section-about {
+  padding-top: 128px;
+  padding-bottom: 112px;
+}
+
+.about {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 219px;
+}
+
+.section-about-wrapper {
+}
+
+.section-about-title {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 19px;
+}
+
+.line {
+  display: inline-block;
+  border: 2px solid #d8d8d8;
+  width: 143px;
+  height: 0px;
+  margin-bottom: 4px;
+  margin-right: 12px;
+}
+
+.about-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  text-align: justify;
+  color: #ffeb38;
+}
+.section-main-title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.3;
+  letter-spacing: 0.03em;
+  color: #fff;
+  margin-top: 19px;
+  margin-bottom: 31px;
+}
+.main-title {
+  color: #ffeb38;
+}
+.descr-about {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  text-align: justify;
+  color: #696969;
+  margin-bottom: 38px;
+}
+.descr-about-bottom {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  text-align: justify;
+  color: #696969;
+  margin-bottom: 35px;
+}
+.section-about-btns {
+  border-radius: 5px;
+  width: 181px;
+  height: 48px;
+  background-color: #ffeb38;
+  border: none;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #1e1e1e;
+}
+.section-about-box {
+  position: relative;
+}
+
+.section-about-working {
+}
+
+.section-about-people {
+  position: absolute;
+  top: 191px;
+  left: 198px;
 }
